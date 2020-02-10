@@ -37,7 +37,7 @@ h2 {
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 150px;
+  width: 130px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -52,6 +52,15 @@ h2 {
 .navbar-light .navbar-nav .nav-link:hover {
   text-decoration: underline;
   color: white;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url(images/burger.png);
+  height: 30px;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
 }
 
 .about {
@@ -155,12 +164,9 @@ h2 {
 }
 
 .navbar {
-  height: 75px;
+  height: 90px;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 100px;
-}
 
 .navbar-light .navbar-toggler-icon {
   background-image: url(images/burger.png);
@@ -200,6 +206,17 @@ textarea.form-control {
   background-color: #FFDC34;
   border-color: #FFDC34;
   font-weight: bold;
+}
+
+.bg-border {
+  color: white;
+  background-color: #FFDC34;
+  border: 2px solid white;
+  font-weight: bold;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
 }
 
 .btn-yellow:hover {
