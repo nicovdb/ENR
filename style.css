@@ -32,6 +32,12 @@ h2 {
   justify-content: space-between;
 }
 
+.navbar-collapse {
+  padding-left: 12px;
+  padding-bottom: 12px;
+  background-color: #FFDC34;
+}
+
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
