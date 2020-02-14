@@ -79,6 +79,12 @@ h2 {
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+.solutions iframe {
+  max-width: 100%;
+  border-radius: 3px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
 .yellow-ball-left {
   background-color: #FFDC34;
   border-radius: 0% 100% 100% 0% / 100% 50% 50% 0% ;
