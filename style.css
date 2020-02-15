@@ -202,6 +202,14 @@ textarea.form-control {
   padding: 1.2rem 1rem;
 }
 
+.checkboxes {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: .25rem;
+  background-color: white;
+  padding: 1.2rem 1rem;
+  color: #495057;
+}
+
 .form-control {
   border: none;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
@@ -315,3 +323,10 @@ textarea.form-control {
   margin-top: 0;
 }
 
+.solutions .btn {
+  border-radius: 1.5rem;
+}
+
+.card-product>div {
+  height: calc(100% - 200px);
+}
