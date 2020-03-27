@@ -44,6 +44,7 @@ h2 {
 
 .navbar-lewagon .navbar-brand img {
   width: 130px;
+  border-radius: 3px;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -76,13 +77,13 @@ h2 {
 .about iframe {
   max-width: 100%;
   border-radius: 3px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 15px rgba(0,0,0,0.1);
 }
 
 .solutions iframe {
   max-width: 100%;
   border-radius: 3px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 15px rgba(0,0,0,0.1);
 }
 
 .yellow-ball-left {
@@ -122,7 +123,7 @@ h2 {
   padding: 20px;
   background-color: white;
   border-radius: 3px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 15px rgba(0,0,0,0.1);
   text-align: center;
   margin-bottom: 40px;
   height: 100%;
@@ -175,9 +176,9 @@ h2 {
   max-width: 100%;
 }
 
-.navbar {
+/*.navbar {
   height: 90px;
-}
+}*/
 
 
 .navbar-light .navbar-toggler-icon {
@@ -203,7 +204,7 @@ textarea.form-control {
 }
 
 .checkboxes {
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 15px rgba(0,0,0,0.1);
   border-radius: .25rem;
   background-color: white;
   padding: 1.2rem 1rem;
@@ -212,7 +213,7 @@ textarea.form-control {
 
 .form-control {
   border: none;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 15px rgba(0,0,0,0.1);
 }
 
 .flex-end {
@@ -245,7 +246,7 @@ textarea.form-control {
 }
 
 .btn {
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 15px rgba(0,0,0,0.1);
 }
 
 .bg-dark-grey {
@@ -296,7 +297,7 @@ textarea.form-control {
 
 .card-product {
   border-radius: 3px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 15px rgba(0,0,0,0.1);
   height: 100%;
   background-color: white;
 }
@@ -329,4 +330,35 @@ textarea.form-control {
 
 .card-product>div {
   height: calc(100% - 200px);
+}
+
+.text-green {
+  color: #4C8C2B;
+}
+
+.minified {
+  font-size: 16px;
+  position: relative;
+  top: -16px;
+}
+
+.shadow-light {
+  box-shadow: 2px 4px 15px rgba(0,0,0,0.1);
+}
+
+.color-light {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.talking-image {
+  max-width: 100%;
+}
+
+.card-project img {
+  height: 170px;
+  object-fit: cover;
+}
+
+.text-baseline {
+  font-size: 0.9rem;
 }

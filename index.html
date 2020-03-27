@@ -22,8 +22,8 @@
   <div id="accueil"></div>
   <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
     <a class="navbar-brand d-flex flex-column" href="#">
-      <img src="images/logo.png" />
-      <div class="text-white text-small d-none d-lg-inline"><b>1er réseau de courtiers indépendants en France</b></div>
+      <img src="images/logo_small.png" class="bg-white p-2"/>
+      <div class="mt-1 text-baseline text-white d-none d-lg-inline"><b>1er réseau de courtiers indépendants en France</b></div>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -32,9 +32,6 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#accueil">Accueil</a>
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="#about">À propos</a>
         </li>
@@ -72,30 +69,35 @@
         <div class="carousel-div" style="background-image: url(images/carousel/17.jpg)">
           <h1>Nous construisons votre bâtiment,</h1>
           <h1>vous gardez votre argent</h1>
+          <a href="#batiment-agricole" class="btn btn-yellow px-3">Notre solution</a>
         </div>
       </div>
       <div class="carousel-item">
         <div class="carousel-div" style="background-image: url(images/carousel/11.jpg)">
           <h1>Vous avez une toiture, </h1>
           <h1>nous pouvons vous la louer</h1>
+          <a href="#location-toiture" class="btn btn-yellow px-3">Notre solution</a>
         </div>
       </div>
       <div class="carousel-item">
         <div class="carousel-div" style="background-image: url(images/carousel/16.jpg)">
           <h1>Nous construisons et finançons </h1>
           <h1>vos ombrières de parking à 100%</h1>
+          <a href="#ombriere-parking" class="btn btn-yellow px-3">Notre solution</a>
         </div>
       </div>
       <div class="carousel-item">
         <div class="carousel-div" style="background-image: url(images/carousel/13.jpg)">
           <h1>Besoin de serres,</h1>
           <h1>nous avons forcément la solution qui vous convient</h1>
+          <a href="#serre-solaire" class="btn btn-yellow px-3">Notre solution</a>
         </div>
       </div>
       <div class="carousel-item">
         <div class="carousel-div" style="background-image: url(images/carousel/14.jpg)">
           <h1>Vous disposez des terres non exploitables,</h1>
           <h1>nous vous donnons une rente</h1>
+          <a href="#ferme-sol" class="btn btn-yellow px-3">Notre solution</a>
         </div>
       </div>
     </div>
@@ -114,37 +116,81 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-8">
-          <h1>Qui sommes-nous ?</h1>
+          <h1>1<span class="minified">er</span>  réseau de courtiers indépendants en France</h1>
           <p><b>Notre intervention est gratuite</b> et vous garantit de bénéficier d’un interlocuteur expérimenté qui saura discuter d’éléments techniques avec les professionnels du monde des énergies renouvelables.</p>
-          <p class="mb-0">A l’instar d’un courtier en prêt immobilier, nous agissons librement et indépendamment des investisseurs en votre nom auprès de tous les acteurs sérieux afin de trouver la meilleure solution technique et les conditions financières les plus intéressantes.</p>
+          <p>A l’instar d’un courtier en prêt immobilier, nous agissons librement et indépendamment des investisseurs en votre nom auprès de tous les acteurs sérieux afin de trouver la meilleure solution technique et les conditions financières les plus intéressantes.</p>
         </div>
         <div class="col-12 col-md-4 illustrations d-flex align-items-center">
           <img src="images/wind-turbine.png" alt="Eoliennes" class="w-100">
         </div>
       </div>
-      <div class="row row-eq-height mt-5">
-        <div class="col-12 col-sm-6 col-lg-4 mb-4">
-          <div class="card-intervention">
-            <i class="far fa-handshake"></i>
-            <h2>Rencontrons-nous</h2>
-            <p>Nous écoutons vos besoins, nous estimons la faisabilité et nous trouvons ensemble votre solution</p>
+      <p class="mt-4"><em>Quelques exemples de nos réalisations:</em></p>
+      <div class="row">
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <div class="card-project bg-white shadow-light">
+            <img src="images/real2.jpg" alt="" class="w-100">
+            <div class="card-project-infos text-center p-4 bg-light">
+              <p class="mb-0 color-light"><em>Aude (11)</em></p>
+              <p class="mb-0">Rénovation de toiture et désamiantage everite</p>
+              <p class="mb-0"><b>10 000€</b></p>
+            </div>
+            <div class="card-project-description p-4 color-light">
+              <p class="mb-0">Surface: 650m²</p>
+              <p>Puissance: 100 kWc</p>
+              <p class="mb-0">Rénovation de toiture, dépose et désamiantage everite, pose bac acier avec feutre anti-condensation </p>
+            </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 col-lg-4 mb-4">
-          <div class="card-intervention">
-            <i class="fas fa-search-dollar"></i>
-            <h2>Notre recherche</h2>
-            <p>Nous recherchons et mettons en concurrence les entreprises et vous trouvons la meilleure offre</p>
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <div class="card-project bg-white shadow-light">
+            <img src="images/real3.jpg" alt="" class="w-100">
+            <div class="card-project-infos text-center p-4 bg-light">
+              <p class="mb-0 color-light"><em>Gers (32)</em></p>
+              <p class="mb-0">Rénovation de toiture</p>
+              <p class="mb-0"><b>35 000€</b></p>
+            </div>
+            <div class="card-project-description p-4 color-light">
+              <p class="mb-0">Surface: 1 120m²</p>
+              <p>Puissance: 178.56 kWc</p>
+              <p class="mb-0">Rénovation de toiture, pose  bac acier avec feutre anti-condensation</p>
+            </div>
           </div>
         </div>
-        <div class="col-12 col-sm-6 offset-sm-3 col-lg-4 offset-lg-0 mb-4">
-          <div class="card-intervention">
-            <i class="fas fa-glass-cheers"></i>
-            <h2>Nous nous occupons de tout !</h2>
-            <p>L'ensemble des démarches sont gérées par nos services et nous vous tenons informés de leur avancée.</p>
-            <p>Vous êtes serein et vous vous concentrez sur votre activité</p>
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <div class="card-project bg-white shadow-light">
+            <img src="images/real4.jpg" alt="" class="w-100">
+            <div class="card-project-infos text-center p-4 bg-light">
+              <p class="mb-0 color-light"><em>Charente (16)</em></p>
+              <p class="mb-0">Centrale solaire flottante</p>
+              <p class="mb-0"><b>200 000€</b></p>
+            </div>
+            <div class="card-project-description p-4 color-light">
+              <p class="mb-0">Surface: 40 000m²</p>
+              <p>Puissance: 4 000 kWc</p>
+              <p class="mb-0">Pose de flotteurs et centrale solaire, sécurisation et clôture du site </p>
+            </div>
           </div>
         </div>
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <div class="card-project bg-white shadow-light">
+            <img src="images/real1.jpg" alt="" class="w-100">
+            <div class="card-project-infos text-center p-4 bg-light">
+              <p class="mb-0 color-light"><em>Gers (32)</em></p>
+              <p class="mb-0">Rénovation de toiture</p>
+              <p class="mb-0"><b>64 000€</b></p>
+            </div>
+            <div class="card-project-description p-4 color-light">
+              <p class="mb-0">Surface: 650m²</p>
+              <p>Puissance: 100 kWc</p>
+              <p class="mb-0">Rénovation de toiture, pose  bac acier avec feutre anti-condensation </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <h1>Ils parlent de nous !</h1>
+        <img src="images/talking.jpg" alt="" class="p-3 bg-white shadow-light talking-image">
       </div>
     </div>
     <div id="about"></div>
@@ -172,7 +218,7 @@
     <div class="container">
       <h1>Nos solutions</h1>
       <div class="row mt-4">
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4 mb-4" id="batiment-agricole">
           <div class="card-product">
             <img src="images/solutions/7.jpg" />
             <div class="p-4 d-flex flex-column justify-content-between">
@@ -196,7 +242,7 @@
         <div class="col-12 col-md-6 col-lg-8 mb-4 d-none d-md-flex justify-content-center align-items-center">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/Ot7a_2hvJ-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4 mb-4" id="location-toiture">
           <div class="card-product">
             <img src="images/solutions/toiture.jpg" />
             <div class="p-4 d-flex flex-column justify-content-between">
@@ -211,7 +257,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4 mb-4" id="ombriere-parking">
           <div class="card-product">
             <img src="images/solutions/ombriere.jpg" />
             <div class="p-4 d-flex flex-column justify-content-between">
@@ -230,7 +276,7 @@
         <div class="col-12 col-md-6 col-lg-8 mb-4 d-none d-md-flex justify-content-center align-items-center">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/vOmoCIq-N3g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4 mb-4" id="ferme-sol">
           <div class="card-product">
             <img src="images/solutions/ferme.jpg" />
             <div class="p-4 d-flex flex-column justify-content-between">
@@ -246,7 +292,7 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4 mb-4">
+        <div class="col-12 col-md-6 col-lg-4 mb-4" id="serre-solaire">
           <div class="card-product">
             <img src="images/solutions/serre.jpg" />
             <div class="p-4 d-flex flex-column justify-content-between">
@@ -271,36 +317,6 @@
                 <p>Vous pouvez également, si vous le souhaitez, investir vous-même dans la réalisation de votre bâtiment et ainsi conserver l’intégralité de la rente solaire. </p>
                 <p>Nous disposons de solutions clés en main bénéficiant d’une grande souplesse selon vos besoins.</p>
                 <p>Bien évidemment, nous négocions également les meilleurs tarifs.</p>
-              </div>
-              <div class="text-center mt-3">
-                <a href="#contact" class="btn btn-yellow px-3">Nous contacter</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4 offset-lg-2 mb-4">
-          <div class="card-product">
-            <img src="images/solutions/19.png" />
-            <div class="p-4 d-flex flex-column justify-content-between">
-              <div>
-                <h2>Autoconsommation</h2>
-                <p>Vous désirez produire vous-même l’énergie que vous consommez ? C’est aujourd’hui possible ! </p>
-                <p>Plusieurs solutions s’offrent à vous, selon vos besoins, vos consommations d’énergies et vos souhaits d’investissements.</p>
-              </div>
-              <div class="text-center mt-3">
-                <a href="#contact" class="btn btn-yellow px-3">Nous contacter</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-0 mb-4">
-          <div class="card-product">
-            <img src="images/solutions/18.PNG" style="object-position: 50% 20% " />
-            <div class="p-4 d-flex flex-column justify-content-between">
-              <div>
-                <h2>Éolien</h2>
-                <p>Secteur encore naissant en France, l’éolien dispose d’un grand potentiel. </p>
-                <p>Bénéficiant de professionnels expérimentés dans notre réseau, nous mettons à votre disposition nos investisseurs pour vous permettre de réaliser à bien votre projet et vous offrir une source de revenus non négligeable.</p>
               </div>
               <div class="text-center mt-3">
                 <a href="#contact" class="btn btn-yellow px-3">Nous contacter</a>
@@ -421,6 +437,7 @@
       <a href="https://www.linkedin.com/company/enr-courtage/" target="_blank"><i class="fab fa-linkedin font-weight-normal"></i></a>
       <p>05 35 54 31 85</p>
       <p>11 rue Galin,  33000 Bordeaux</p>
+      <p class="mb-0">SIRET 881 890 982 - R.C.S Bordeaux</p>
     </div>
     <div class="text-sm-right">
       <p>Site réalisé par</p>
