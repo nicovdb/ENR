@@ -8,7 +8,7 @@ html {
 
 h1 {
   font-family: 'Poppins', sans-serif;
-  color: #FFDC34;
+  color: #ffc001;
   margin-bottom: 1rem;
 }
 
@@ -24,7 +24,7 @@ h2 {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background-color: #FFDC34;
+  background-color: #ffc001;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
 }
 
@@ -35,7 +35,7 @@ h2 {
 .navbar-collapse.show {
   padding-left: 12px;
   padding-bottom: 12px;
-  background-color: #FFDC34;
+  background-color: #ffc001;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -87,7 +87,7 @@ h2 {
 }
 
 .yellow-ball-left {
-  background-color: #FFDC34;
+  background-color: #ffc001;
   border-radius: 0% 100% 100% 0% / 100% 50% 50% 0% ;
   height: 200px;
   width: 100px;
@@ -110,7 +110,7 @@ h2 {
 }
 
 .yellow-ball-right {
-  background-color: #FFDC34;
+  background-color: #ffc001;
   border-radius: 100% 0% 0% 100% / 50% 100% 0% 50% ;
   height: 300px;
   width: 100px;
@@ -224,14 +224,14 @@ textarea.form-control {
 
 .btn-yellow {
   color: #fff;
-  background-color: #FFDC34;
-  border-color: #FFDC34;
+  background-color: #ffc001;
+  border-color: #ffc001;
   font-weight: bold;
 }
 
 .bg-border {
   color: white;
-  background-color: #FFDC34;
+  background-color: #ffc001;
   border: 2px solid white;
   font-weight: bold;
   padding: .375rem .75rem;
@@ -264,7 +264,7 @@ textarea.form-control {
 }
 
 .footer a:hover {
-  color: #FFDC34;
+  color: #ffc001;
 }
 
 .carousel-div {
