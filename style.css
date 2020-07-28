@@ -362,3 +362,8 @@ textarea.form-control {
 .text-baseline {
   font-size: 0.9rem;
 }
+
+.team img {
+  max-width: 250px;
+  border-radius: 3px;
+}
