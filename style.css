@@ -370,9 +370,16 @@ textarea.form-control {
 
 .bg-team {
   text-align: center;
+  position: relative;
 }
 
 .bg-team img {
   width: 100%;
-  max-width: 700px;
+}
+
+.team-title {
+  /*position: absolute;
+  bottom: 4%;
+  right: 8%;
+  text-shadow: 2px 4px 12px rgba(0, 0, 0, 0.3);*/
 }
