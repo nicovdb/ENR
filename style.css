@@ -86,6 +86,12 @@ h2 {
   box-shadow: 2px 4px 15px rgba(0,0,0,0.1);
 }
 
+.motion iframe {
+  max-width: 100%;
+  border-radius: 3px;
+  box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
 .yellow-ball-left {
   background-color: #ffc001;
   border-radius: 0% 100% 100% 0% / 100% 50% 50% 0% ;
